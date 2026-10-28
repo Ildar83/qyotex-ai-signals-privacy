@@ -1,13 +1,14 @@
 # Privacy Policy — Qyotex AI Signals
 
-**Effective date:** October 28, 2026
+**Effective date:** October 28, 2026  
+**Last updated:** October 28, 2026
 **App:** Qyotex AI Signals (Android package `com.app.quotaisignals`)
 
 This Privacy Policy explains how the Qyotex AI Signals mobile application (the "App") handles information when you use it. The App is operated by its independent developer ("we", "us", or "our"). By using the App, you agree to the practices described in this policy.
 
 ## 1. Summary
 
-The App does not require registration, does not ask for your name, email address, or phone number, and does not process payments. We do not operate our own analytics and we do not sell personal data. The App displays advertising provided by the Yandex Mobile Ads SDK, which receives limited technical information from your device in order to deliver ads. Ads are requested in non-personalized mode, and the App does not access the Android Advertising ID.
+The App does not require registration, does not ask for your name, email address, or phone number, and does not process payments. We do not operate our own analytics and we do not sell personal data. The App displays advertising provided by the Yandex Mobile Ads SDK, which receives limited technical information from your device in order to deliver ads. Ads are requested in non-personalized mode. To deliver and measure ads, the SDK may use your device's Android Advertising ID.
 
 ## 2. Information stored only on your device
 
@@ -19,6 +20,7 @@ The App shows a banner ad at the bottom of the screen and may show a full-screen
 
 | Category | Examples | Purpose |
 |---|---|---|
+| Device identifiers | Android Advertising ID (where available on your device) | Delivering ads, limiting how often an ad is shown, measuring ad performance, and preventing ad fraud |
 | Device and app information | Device model, operating system version, screen size, language, App version | Delivering ads in a format compatible with your device |
 | Network information | IP address, connection type | Delivering ads and preventing ad fraud |
 | Ad interaction data | Ad impressions, clicks, and closes | Measuring ad performance |
@@ -26,7 +28,7 @@ The App shows a banner ad at the bottom of the screen and may show a full-screen
 We have configured the SDK as follows:
 
 - **Non-personalized ads.** The SDK is told that the user has not consented to personalized advertising, so ads are not targeted based on a personal profile.
-- **No Advertising ID.** The Android permission `com.google.android.gms.permission.AD_ID` is removed from the App, so the App does not provide the Google Advertising ID to the SDK.
+- **Advertising ID.** The App declares the Android permission `com.google.android.gms.permission.AD_ID`, so the Yandex Mobile Ads SDK can read the Google Advertising ID for the advertising purposes listed above. The Advertising ID is a resettable identifier that does not reveal your name or contact details. You can reset it or delete it at any time in your Android settings (see section 7).
 - **No location.** The App does not request location access and does not pass location data to the SDK.
 
 All data transmitted by the Yandex Mobile Ads SDK is encrypted in transit using HTTPS/TLS. Yandex processes this information as an independent controller under its own terms:
@@ -53,7 +55,7 @@ Technical information processed by the advertising partner is used only to displ
 
 ## 7. Data retention and deletion
 
-We do not store your data on our servers. Locally saved preferences remain on your device until you clear the App's data or uninstall the App. Information received by Yandex is retained in accordance with the Yandex Privacy Policy. You can also reset or delete your device's advertising ID at any time in your Android settings (**Settings → Google → Ads**).
+We do not store your data on our servers. Locally saved preferences remain on your device until you clear the App's data or uninstall the App. Information received by Yandex is retained in accordance with the Yandex Privacy Policy. You can reset or delete your device's Advertising ID at any time in your Android settings (**Settings → Privacy → Ads** or **Settings → Google → Ads**, depending on the device). After deletion, apps receive a string of zeros instead of the ID.
 
 ## 8. Children's privacy
 
