@@ -11,7 +11,7 @@ The App does not require registration, does not ask for your name, email address
 
 ## 2. Information stored only on your device
 
-The App saves a single display preference (whether full-screen immersive mode is enabled) in local storage on your device. This preference never leaves your device and is deleted when you clear the App's data or uninstall the App.
+The App may save a single display preference (whether full-screen immersive mode is enabled) in local storage on your device. This preference never leaves your device and is deleted when you clear the App's data or uninstall the App.
 
 ## 3. Information processed by the advertising partner
 
